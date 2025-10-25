@@ -1,0 +1,37 @@
+# OS and editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+*.out
+
+# VSCode and IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python (if you experiment with automation)
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node (if you experiment with dashboards)
+node_modules/
+dist/
+
+# Docker / Compose
+.env
+*.env.local
+docker-compose.override.yml
+
+# Documentation
+assets/diagrams/*.drawio.bak
